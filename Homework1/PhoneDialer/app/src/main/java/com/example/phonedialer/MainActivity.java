@@ -45,42 +45,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void oneClick(View view){
-        onButtonClick(editText, "1");
+    public void btnClick(View view){
+        Button btn = (Button) view;
+        String val = btn.getText().toString();
+        onButtonClick(editText, val);
     }
-    public void twoClick(View view){
-        onButtonClick(editText, "2");
-    }
-    public void threeClick(View view){
-        onButtonClick(editText, "3");
-    }
-    public void fourClick(View view){
-        onButtonClick(editText, "4");
-    }
-    public void fiveClick(View view){
-        onButtonClick(editText, "5");
-    }
-    public void sixClick(View view){
-        onButtonClick(editText, "6");
-    }
-    public void sevenClick(View view){
-        onButtonClick(editText, "7");
-    }
-    public void eightClick(View view){
-        onButtonClick(editText, "8");
-    }
-    public void nineClick(View view){
-        onButtonClick(editText, "9");
-    }
-    public void starClick(View view){
-        onButtonClick(editText, "*");
-    }
-    public void zeroClick(View view){
-        onButtonClick(editText, "0");
-    }
-    public void hashClick(View view){
-        onButtonClick(editText, "#");
-    }
+
     public void onDial(View view){
         if(editText.getText().length() <= 3){
             Toast.makeText(this, "Please enter valid number", Toast.LENGTH_SHORT).show();
