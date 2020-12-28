@@ -1,0 +1,13 @@
+com/example/android/materialme/BuildConfig.java
+ com.example.android.materialme.BuildConfig
+com/example/android/materialme/MainActivity.java
+ com.example.android.materialme.MainActivity
+ com.example.android.materialme.MainActivity$1
+com/example/android/materialme/DetailActivity.java
+ com.example.android.materialme.DetailActivity
+com/example/android/materialme/SportsAdapter.java
+ com.example.android.materialme.SportsAdapter
+ com.example.android.materialme.SportsAdapter$ViewHolder
+com/example/android/materialme/Sport.java
+ com.example.android.materialme.Sport
+ com.example.android.materialme.Sport$1
