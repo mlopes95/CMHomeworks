@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
 
         // Initialize the ArrayList that will contain the data.
-        cities = new HashMap<String, City>();
+        cities = new HashMap<>();
 
         receiveCitiesList();
 
@@ -84,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
             public void receiveCitiesList(HashMap<String, City> citiesCollection) {
                 com.example.ipmaforecast.ui.MainActivity.this.cities = citiesCollection;
             }
-
 
             @Override
             public void onFailure(Throwable cause) {

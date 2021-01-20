@@ -1,4 +1,4 @@
-#Mon Dec 28 18:35:40 GMT 2020
-base.0=C\:\\Users\\Miguel Lopes\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Jan 13 21:07:22 GMT 2021
+base.0=C\:\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

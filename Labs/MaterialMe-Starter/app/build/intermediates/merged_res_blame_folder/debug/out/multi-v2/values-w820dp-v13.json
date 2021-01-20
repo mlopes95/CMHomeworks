@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Miguel Lopes\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Miguel Lopes\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Labs\\MaterialMe-Starter\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
-                        "startOffsets": "874",
+                        "startOffsets": "893",
                         "endColumns": "57",
-                        "endOffsets": "927"
+                        "endOffsets": "946"
                     },
                     "to": {
                         "startLines": "2",
