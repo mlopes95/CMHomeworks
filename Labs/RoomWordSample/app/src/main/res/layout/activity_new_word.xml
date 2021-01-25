@@ -12,7 +12,8 @@
         android:hint="@string/hint_word"
         android:inputType="textAutoComplete"
         android:layout_margin="@dimen/big_padding"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button_save"

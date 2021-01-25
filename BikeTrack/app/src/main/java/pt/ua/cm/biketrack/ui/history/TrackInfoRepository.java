@@ -1,4 +1,4 @@
-package pt.ua.cm.biketrack;
+package pt.ua.cm.biketrack.ui.history;
 
 import android.app.Application;
 
@@ -8,11 +8,12 @@ import java.util.List;
 
 import pt.ua.cm.biketrack.models.TrackInfo;
 
-public class TrackInfoRepository {
+class TrackInfoRepository {
     private TrackInfoDao mTrackInfoDao;
     private LiveData<List<TrackInfo>> mTrackInfo;
+    private LiveData<TrackInfo> mTrackInfoID;
 
-    public TrackInfoRepository(Application application){
+    TrackInfoRepository(Application application){
         TrackInfoDatabase db = TrackInfoDatabase.getDatabase(application);
         mTrackInfoDao = db.trackInfoDao();
         mTrackInfo = mTrackInfoDao.queryAll();
@@ -25,6 +26,12 @@ public class TrackInfoRepository {
     void insert (TrackInfo trackInfo){
         TrackInfoDatabase.databaseWriteExecutor.execute(()->{
             mTrackInfoDao.insert(trackInfo);
+        });
+    }
+
+    void queryID(int id){
+        TrackInfoDatabase.databaseWriteExecutor.execute(()->{
+            mTrackInfoDao.queryByID(id);
         });
     }
 }

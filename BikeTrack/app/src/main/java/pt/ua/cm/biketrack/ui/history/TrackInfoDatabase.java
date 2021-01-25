@@ -1,4 +1,4 @@
-package pt.ua.cm.biketrack;
+package pt.ua.cm.biketrack.ui.history;
 
 import android.content.Context;
 

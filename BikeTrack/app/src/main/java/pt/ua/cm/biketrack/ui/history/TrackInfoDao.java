@@ -1,4 +1,4 @@
-package pt.ua.cm.biketrack;
+package pt.ua.cm.biketrack.ui.history;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -22,5 +22,8 @@ public interface TrackInfoDao {
 
     @Query("SELECT * FROM trackInfo_table")
     LiveData<List<TrackInfo>> queryAll();
+
+    @Query("SELECT * FROM trackInfo_table WHERE ID = :id")
+    LiveData<TrackInfo> queryByID(int id);
 
 }
