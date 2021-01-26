@@ -48,13 +48,7 @@ public class HistoryFragment extends Fragment {
         share_fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-              /*  HistoryFragmentDirections.ActionNavigationHistoryToHistoryQR action = HistoryFragmentDirections.actionNavigationHistoryToQRScannerFragment();
-                action.setQueryId();
-                Navigation.findNavController(v).navigate(action);*/
-
                 Navigation.findNavController(v).navigate(R.id.navigation_qrScan);
-
             }
         });
 

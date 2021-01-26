@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -60,11 +61,13 @@ public class RegisterUserFragment extends Fragment implements View.OnClickListen
         switch (v.getId()){
             case R.id.banner:
                 //startActivity(new Intent(this,MainActivity.class));
-                Fragment fragment = new LogInFragment();
+/*                Fragment fragment = new LogInFragment();
                 FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
                 fragmentManager.beginTransaction()
                         .replace(R.id.nav_host_fragment,fragment)
-                        .commit();
+                        .commit();*/
+
+                Navigation.findNavController(v).navigate(R.id.navigation_login);
                 break;
             case R.id.registerUser:
                 registerUser();
@@ -138,11 +141,12 @@ public class RegisterUserFragment extends Fragment implements View.OnClickListen
                             progressBar.setVisibility(View.GONE);
                         }
                         //getActivity().onBackPressed();
-                        Fragment fragment = new LogInFragment();
+                        /*Fragment fragment = new LogInFragment();
                         FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
                         fragmentManager.beginTransaction()
                                 .replace(R.id.nav_host_fragment,fragment)
-                                .commit();
+                                .commit();*/
+                        Navigation.findNavController(v).navigate(R.id.navigation_login);
                     }
                 });
     }

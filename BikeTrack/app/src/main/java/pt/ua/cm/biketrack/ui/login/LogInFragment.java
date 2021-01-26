@@ -18,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -26,6 +27,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import pt.ua.cm.biketrack.R;
+import pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentDirections;
 import pt.ua.cm.biketrack.ui.profile.ProfileFragment;
 
 public class LogInFragment extends Fragment implements View.OnClickListener {
@@ -37,6 +39,7 @@ public class LogInFragment extends Fragment implements View.OnClickListener {
     private ProgressBar progressBar;
     SharedPreferences sharedPreferences;
     private LogInViewModel logInViewModel;
+    private Boolean isFragmentVisible;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -58,15 +61,22 @@ public class LogInFragment extends Fragment implements View.OnClickListener {
 
         progressBar = (ProgressBar) v.findViewById(R.id.progressBar);
 
+        isFragmentVisible = true;
+
 
         sharedPreferences = getActivity().getSharedPreferences("MySharedPref", Context.MODE_PRIVATE);
         String s = sharedPreferences.getString("userID","");
         if(!s.equals("")){
-            Fragment fragment = new ProfileFragment(s);
+/*            Fragment fragment = new ProfileFragment(s);
             FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
             fragmentManager.beginTransaction()
                     .replace(R.id.nav_host_fragment,fragment)
-                    .commit();
+                    .commit();*/
+            if(v != null){
+                LogInFragmentDirections.ActionNavigationLoginToNavigationProfile action = LogInFragmentDirections.actionNavigationLoginToNavigationProfile(s);
+                action.setUserID(s);
+                Navigation.findNavController(requireActivity(), R.id.nav_host_fragment).navigate(action);
+            }
         }
         return v;
     }
@@ -77,11 +87,13 @@ public class LogInFragment extends Fragment implements View.OnClickListener {
             //if the user click register
             case R.id.register:
                 //startActivity(new Intent(this,RegisterUserFragment.class));
-                Fragment fragment = new RegisterUserFragment();
+                /*Fragment fragment = new RegisterUserFragment();
                 FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
                 fragmentManager.beginTransaction()
                         .replace(R.id.nav_host_fragment,fragment)
-                        .commit();
+                        .commit();*/
+                Navigation.findNavController(v).navigate(R.id.navigation_register);
+
                // System.out.println("chegou aquiiiii");
                 break;
             case R.id.signIn:
@@ -128,17 +140,35 @@ public class LogInFragment extends Fragment implements View.OnClickListener {
                     myEdit.putString("userID",""+user.getUid());
                     myEdit.commit();
                     Toast.makeText(getContext(),"Authentication working",Toast.LENGTH_SHORT).show();
-                    Fragment fragment = new ProfileFragment(""+user.getUid());
+/*
+                    Fragment fragment = new ProfileFragment();
                     FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
                     fragmentManager.beginTransaction()
                             .replace(R.id.nav_host_fragment,fragment)
                             .commit();
+*/
+
+                    LogInFragmentDirections.ActionNavigationLoginToNavigationProfile action = LogInFragmentDirections.actionNavigationLoginToNavigationProfile(user.getUid());
+                    action.setUserID(user.getUid());
+                    Navigation.findNavController(v).navigate(action);
                 }else{
                     //Toast.makeText(MainActivity.this, "Failed to login!Please check your credentials ",Toast.LENGTH_LONG).show();
 
                 }
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        isFragmentVisible=true;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        isFragmentVisible=false;
     }
 
 

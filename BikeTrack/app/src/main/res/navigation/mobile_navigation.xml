@@ -44,7 +44,11 @@
         android:id="@+id/navigation_login"
         android:name="pt.ua.cm.biketrack.ui.login.LogInFragment"
         android:label="@string/login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_details"
@@ -65,5 +69,19 @@
         android:name="pt.ua.cm.biketrack.ui.history.QRScannerFragment"
         android:label="@string/qr_title"
         tools:layout="@layout/fragment_q_r_scanner" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="pt.ua.cm.biketrack.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="userID"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="pt.ua.cm.biketrack.ui.login.RegisterUserFragment"
+        android:label="@string/register"
+        tools:layout="@layout/fragment_register_user" />
 
 </navigation>

@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,7 +26,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import pt.ua.cm.biketrack.R;
 import pt.ua.cm.biketrack.models.User;
-import pt.ua.cm.biketrack.ui.login.LogInFragment;
+
 
 public class ProfileFragment extends Fragment {
     public View v;
@@ -36,8 +37,7 @@ public class ProfileFragment extends Fragment {
 
     private Button logout;
 
-    public ProfileFragment(String userID){
-        this.userID = userID;
+    public ProfileFragment(){
     }
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -45,6 +45,8 @@ public class ProfileFragment extends Fragment {
         profileViewModel =
                 new ViewModelProvider(this).get(ProfileViewModel.class);
         v = inflater.inflate(R.layout.fragment_profile, container, false);
+
+        userID = ProfileFragmentArgs.fromBundle(getArguments()).getUserID();
 
         logout = (Button) v.findViewById(R.id.signOut);
         logout.setOnClickListener(new View.OnClickListener() {
@@ -56,11 +58,13 @@ public class ProfileFragment extends Fragment {
                 myEdit.commit();
                 FirebaseAuth.getInstance().signOut();
                 //startActivity(new Intent(ProfileActivity.this,MainActivity.class));
-                Fragment fragment = new LogInFragment();
+               /* Fragment fragment = new LogInFragment();
                 FragmentManager fragmentManager =((AppCompatActivity)v.getContext()).getSupportFragmentManager();
                 fragmentManager.beginTransaction()
                         .replace(R.id.nav_host_fragment,fragment)
-                        .commit();
+                        .commit();*/
+                Navigation.findNavController(v).navigate(R.id.navigation_login);
+                Navigation.findNavController(v).popBackStack();
             }
         });
 
