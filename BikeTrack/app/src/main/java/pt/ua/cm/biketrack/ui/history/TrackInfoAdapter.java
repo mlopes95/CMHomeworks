@@ -30,7 +30,7 @@ public class TrackInfoAdapter extends ListAdapter<TrackInfo, TrackInfoViewHolder
     @Override
     public void onBindViewHolder(@NonNull TrackInfoViewHolder holder, int position) {
         TrackInfo mCurrent = getItem(position);
-        holder.bind(mCurrent.getId(), mCurrent.getDistance(), mCurrent.getAvgSpeed(), mCurrent.getTime(), mCurrent);
+        holder.bind(position + 1, mCurrent.getDistance(), mCurrent.getAvgSpeed(), mCurrent.getTime(), mCurrent);
     }
 
     static class TrackInfoDiff extends DiffUtil.ItemCallback<TrackInfo> {

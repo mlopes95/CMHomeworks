@@ -29,9 +29,8 @@ class TrackInfoRepository {
         });
     }
 
-    void queryID(int id){
-        TrackInfoDatabase.databaseWriteExecutor.execute(()->{
-            mTrackInfoDao.queryByID(id);
-        });
+    LiveData<TrackInfo> queryID(int id){
+        mTrackInfoID = mTrackInfoDao.queryByID(id);
+        return mTrackInfoID;
     }
 }

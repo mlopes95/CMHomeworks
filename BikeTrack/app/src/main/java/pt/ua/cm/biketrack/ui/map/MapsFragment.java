@@ -125,6 +125,9 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
         polylines = new ArrayList<>();
         avgSpeed = new ArrayList<>();
 
+        speed.setText("0 Km/h");
+        distance.setText("0 m");
+
 
         // Construct a GeoDataClient.
         Places.initialize(this.requireContext(), getString(R.string.google_maps_key));
@@ -236,6 +239,14 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
         return root;
     }
 
+    public void InitializeMap(){
+        //Initialize Google Maps
+        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager()
+                .findFragmentById(R.id.map);
+        assert mapFragment != null;
+        mapFragment.getMapAsync(this);
+    }
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -292,8 +303,8 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
 
     private void stopTrackingLocation(){
             if(mTrackingLocation){
-                mTrackingLocation = false;
                 mFusedLocationClient.removeLocationUpdates(mLocationCallback);
+                mTrackingLocation = false;
             }
     }
 

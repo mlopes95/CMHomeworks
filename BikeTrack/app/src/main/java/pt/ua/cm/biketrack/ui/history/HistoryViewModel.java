@@ -15,6 +15,8 @@ public class HistoryViewModel extends AndroidViewModel {
 
     private final LiveData<List<TrackInfo>> mAllTrackInfo;
 
+    private LiveData<TrackInfo> mTrackInfo;
+
 
     public HistoryViewModel(Application application) {
         super(application);
@@ -25,6 +27,10 @@ public class HistoryViewModel extends AndroidViewModel {
     LiveData<List<TrackInfo>> getAllTrackInfo(){
         return mAllTrackInfo;
     }
+
+    LiveData<TrackInfo> getTrack(int id) {
+        mTrackInfo = mRepository.queryID(id);
+        return mTrackInfo;}
 
     public void insert(TrackInfo trackInfo) {
         mRepository.insert(trackInfo);

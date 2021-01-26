@@ -19,24 +19,51 @@
         <action
             android:id="@+id/action_navigation_history_to_historyDetailFragment"
             app:destination="@id/navigation_details" />
+        <action
+            android:id="@+id/action_navigation_history_to_QRScannerFragment"
+            app:destination="@id/navigation_qrScan" />
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="pt.ua.cm.biketrack.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_qr"
+        android:name="pt.ua.cm.biketrack.ui.history.QRCodeFragment"
+        android:label="@string/qr_title"
+        tools:layout="@layout/fragment_q_r_code">
+        <argument
+            android:name="qr_data"
+            app:argType="string" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="pt.ua.cm.biketrack.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_camera"
+        android:name="pt.ua.cm.biketrack.ui.camera.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="pt.ua.cm.biketrack.ui.login.LogInFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login" />
+
     <fragment
         android:id="@+id/navigation_details"
         android:name="pt.ua.cm.biketrack.ui.history.HistoryDetailFragment"
         android:label="@string/title_detail"
         tools:layout="@layout/fragment_history_detail"
-        />
+        >
+        <argument
+            android:name="query_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_navigation_details_to_navigation_qr"
+            app:destination="@id/navigation_qr" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_qrScan"
+        android:name="pt.ua.cm.biketrack.ui.history.QRScannerFragment"
+        android:label="@string/qr_title"
+        tools:layout="@layout/fragment_q_r_scanner" />
 
 </navigation>

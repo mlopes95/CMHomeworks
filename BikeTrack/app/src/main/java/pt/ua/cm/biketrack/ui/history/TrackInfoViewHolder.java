@@ -62,7 +62,8 @@ class TrackInfoViewHolder extends RecyclerView.ViewHolder implements View.OnClic
         TrackInfo element = mList.get(mPosition);
 
         int search_id = element.getId();
-
-        Navigation.findNavController(v).navigate(R.id.action_navigation_history_to_historyDetailFragment);
+        HistoryFragmentDirections.ActionNavigationHistoryToHistoryDetailFragment action = HistoryFragmentDirections.actionNavigationHistoryToHistoryDetailFragment(search_id);
+        action.setQueryId(search_id);
+        Navigation.findNavController(v).navigate(action);
     }
 }
