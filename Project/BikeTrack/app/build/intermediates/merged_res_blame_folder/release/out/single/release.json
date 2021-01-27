@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_register_user.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_register_user.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_base_line.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\base_line.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_stop_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_stop_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_save_48.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_save_48.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_item.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_delete_sweep_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_delete_sweep_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_rounded_borders.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\rounded_borders.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_splash_screen.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_image_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_image_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\raw_map_style.json.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\raw\\map_style.json"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_history_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_image_item.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\image_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_login.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_map.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_q_r_scanner.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_q_r_scanner.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_pause_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_pause_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_profile.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_q_r_code.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_q_r_code.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_history_detail.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_history_detail.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_camera_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_camera_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_replay_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_replay_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_save_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_save_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_camera.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_item_row.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\item_row.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_map_24.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_baseline_map_24.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_history.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo2.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\drawable\\logo2.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\CMHomeworks\\Project\\BikeTrack\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

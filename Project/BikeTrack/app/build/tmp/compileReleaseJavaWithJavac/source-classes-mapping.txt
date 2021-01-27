@@ -1,0 +1,97 @@
+pt/ua/cm/biketrack/ui/camera/CameraViewModel.java
+ pt.ua.cm.biketrack.ui.camera.CameraViewModel
+pt/ua/cm/biketrack/ui/history/QRScannerFragment.java
+ pt.ua.cm.biketrack.ui.history.QRScannerFragment
+ pt.ua.cm.biketrack.ui.history.QRScannerFragment$1
+ pt.ua.cm.biketrack.ui.history.QRScannerFragment$1$1
+ pt.ua.cm.biketrack.ui.history.QRScannerFragment$2
+pt/ua/cm/biketrack/ui/camera/CameraFragment.java
+ pt.ua.cm.biketrack.ui.camera.CameraFragment
+ pt.ua.cm.biketrack.ui.camera.CameraFragment$1
+ pt.ua.cm.biketrack.ui.camera.CameraFragment$2
+ pt.ua.cm.biketrack.ui.camera.CameraFragment$3
+ pt.ua.cm.biketrack.ui.camera.CameraFragment$4
+pt/ua/cm/biketrack/BuildConfig.java
+ pt.ua.cm.biketrack.BuildConfig
+pt/ua/cm/biketrack/ui/login/LogInFragmentDirections.java
+ pt.ua.cm.biketrack.ui.login.LogInFragmentDirections
+ pt.ua.cm.biketrack.ui.login.LogInFragmentDirections$1
+ pt.ua.cm.biketrack.ui.login.LogInFragmentDirections$ActionNavigationLoginToNavigationProfile
+pt/ua/cm/biketrack/ui/history/HistoryFragment.java
+ pt.ua.cm.biketrack.ui.history.HistoryFragment
+ pt.ua.cm.biketrack.ui.history.HistoryFragment$1
+ pt.ua.cm.biketrack.ui.history.HistoryFragment$2
+pt/ua/cm/biketrack/models/TrackInfo.java
+ pt.ua.cm.biketrack.models.TrackInfo
+pt/ua/cm/biketrack/ui/profile/ProfileFragmentArgs.java
+ pt.ua.cm.biketrack.ui.profile.ProfileFragmentArgs
+ pt.ua.cm.biketrack.ui.profile.ProfileFragmentArgs$1
+ pt.ua.cm.biketrack.ui.profile.ProfileFragmentArgs$Builder
+pt/ua/cm/biketrack/ui/history/HistoryDetailFragmentDirections.java
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentDirections
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentDirections$1
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentDirections$ActionNavigationDetailsToNavigationQr
+pt/ua/cm/biketrack/ui/camera/ImageAdapter.java
+ pt.ua.cm.biketrack.ui.camera.ImageAdapter
+ pt.ua.cm.biketrack.ui.camera.ImageAdapter$ImageViewHolder
+pt/ua/cm/biketrack/models/User.java
+ pt.ua.cm.biketrack.models.User
+pt/ua/cm/biketrack/ui/history/HistoryViewModel.java
+ pt.ua.cm.biketrack.ui.history.HistoryViewModel
+pt/ua/cm/biketrack/MainActivity.java
+ pt.ua.cm.biketrack.MainActivity
+pt/ua/cm/biketrack/ui/map/MapsFragment.java
+ pt.ua.cm.biketrack.ui.map.MapsFragment
+ pt.ua.cm.biketrack.ui.map.MapsFragment$1
+ pt.ua.cm.biketrack.ui.map.MapsFragment$2
+ pt.ua.cm.biketrack.ui.map.MapsFragment$3
+ pt.ua.cm.biketrack.ui.map.MapsFragment$4
+ pt.ua.cm.biketrack.ui.map.MapsFragment$5
+ pt.ua.cm.biketrack.ui.map.MapsFragment$6
+pt/ua/cm/biketrack/ui/history/HistoryDetailFragmentArgs.java
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentArgs
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentArgs$1
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragmentArgs$Builder
+pt/ua/cm/biketrack/ui/history/TrackInfoRepository.java
+ pt.ua.cm.biketrack.ui.history.TrackInfoRepository
+pt/ua/cm/biketrack/ui/history/QRCodeFragmentArgs.java
+ pt.ua.cm.biketrack.ui.history.QRCodeFragmentArgs
+ pt.ua.cm.biketrack.ui.history.QRCodeFragmentArgs$1
+ pt.ua.cm.biketrack.ui.history.QRCodeFragmentArgs$Builder
+pt/ua/cm/biketrack/ui/history/TrackInfoDao.java
+ pt.ua.cm.biketrack.ui.history.TrackInfoDao
+pt/ua/cm/biketrack/ui/history/TrackInfoViewHolder.java
+ pt.ua.cm.biketrack.ui.history.TrackInfoViewHolder
+pt/ua/cm/biketrack/ui/login/RegisterUserFragment.java
+ pt.ua.cm.biketrack.ui.login.RegisterUserFragment
+ pt.ua.cm.biketrack.ui.login.RegisterUserFragment$1
+ pt.ua.cm.biketrack.ui.login.RegisterUserFragment$1$1
+pt/ua/cm/biketrack/ui/map/MapViewModel.java
+ pt.ua.cm.biketrack.ui.map.MapViewModel
+pt/ua/cm/biketrack/ui/profile/ProfileViewModel.java
+ pt.ua.cm.biketrack.ui.profile.ProfileViewModel
+pt/ua/cm/biketrack/ui/login/LogInViewModel.java
+ pt.ua.cm.biketrack.ui.login.LogInViewModel
+pt/ua/cm/biketrack/ui/history/HistoryFragmentDirections.java
+ pt.ua.cm.biketrack.ui.history.HistoryFragmentDirections
+ pt.ua.cm.biketrack.ui.history.HistoryFragmentDirections$1
+ pt.ua.cm.biketrack.ui.history.HistoryFragmentDirections$ActionNavigationHistoryToHistoryDetailFragment
+pt/ua/cm/biketrack/ui/history/HistoryDetailFragment.java
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragment
+ pt.ua.cm.biketrack.ui.history.HistoryDetailFragment$1
+pt/ua/cm/biketrack/ui/login/RegisterViewModel.java
+ pt.ua.cm.biketrack.ui.login.RegisterViewModel
+pt/ua/cm/biketrack/ui/profile/ProfileFragment.java
+ pt.ua.cm.biketrack.ui.profile.ProfileFragment
+ pt.ua.cm.biketrack.ui.profile.ProfileFragment$1
+ pt.ua.cm.biketrack.ui.profile.ProfileFragment$2
+pt/ua/cm/biketrack/ui/history/QRCodeFragment.java
+ pt.ua.cm.biketrack.ui.history.QRCodeFragment
+pt/ua/cm/biketrack/ui/history/TrackInfoDatabase.java
+ pt.ua.cm.biketrack.ui.history.TrackInfoDatabase
+pt/ua/cm/biketrack/ui/history/TrackInfoAdapter.java
+ pt.ua.cm.biketrack.ui.history.TrackInfoAdapter
+ pt.ua.cm.biketrack.ui.history.TrackInfoAdapter$TrackInfoDiff
+pt/ua/cm/biketrack/ui/login/LogInFragment.java
+ pt.ua.cm.biketrack.ui.login.LogInFragment
+ pt.ua.cm.biketrack.ui.login.LogInFragment$1
