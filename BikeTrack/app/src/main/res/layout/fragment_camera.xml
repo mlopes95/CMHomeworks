@@ -6,15 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".ui.camera.CameraFragment">
 
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/list"
-        android:name="pt.ua.cm.biketrack.ui.camera.GalleryFragment"
+        android:id="@+id/image_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        app:layoutManager="LinearLayoutManager"
-        tools:context=".ui.camera.GalleryFragment"
-        tools:listitem="@layout/fragment_item" />
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="@color/amber"
+        android:contentDescription="@string/play_float"
+        android:src="@drawable/ic_baseline_camera_24"
+        android:tint="@color/amber"
+        app:borderWidth="0dp"
+        app:fabCustomSize="86dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="48dp"
+        app:useCompatPadding="false"></com.google.android.material.floatingactionbutton.FloatingActionButton>
 </androidx.constraintlayout.widget.ConstraintLayout>

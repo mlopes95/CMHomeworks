@@ -35,4 +35,6 @@ public class HistoryViewModel extends AndroidViewModel {
     public void insert(TrackInfo trackInfo) {
         mRepository.insert(trackInfo);
     }
+
+    public void deleteTrack(TrackInfo trackInfo) {mRepository.deleteTrack(trackInfo);}
 }

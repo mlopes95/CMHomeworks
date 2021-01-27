@@ -90,6 +90,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
     private FloatingActionButton play_button;
     private FloatingActionButton stop_button;
     private FloatingActionButton save_button;
+    private FloatingActionButton reset_button;
     private TextView speed;
     private TextView distance;
     private String spd;
@@ -118,6 +119,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
         play_button = root.findViewById(R.id.fab_play);
         stop_button = root.findViewById(R.id.fab_stop);
         save_button = root.findViewById(R.id.fab_save);
+        reset_button = root.findViewById(R.id.fab_reset);
         chrono = root.findViewById(R.id.chronometer);
         chrono.setBase(SystemClock.elapsedRealtime());
         mTrackingLocation = false;
@@ -181,12 +183,15 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
                 chrono.stop();
                 pauseOffset = SystemClock.elapsedRealtime() - chrono.getBase();
                 isRunning = false;
-                if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                int id = getResources().getIdentifier("pt.ua.cm.biketrack:drawable/ic_baseline_play_arrow_24", null, null);
+                if (ContextCompat.checkSelfPermission(requireContext(),
+                        Manifest.permission.ACCESS_FINE_LOCATION)
+                        == PackageManager.PERMISSION_GRANTED) {
                     mMap.setMyLocationEnabled(false);
                     mMap.getUiSettings().setMyLocationButtonEnabled(false);
                 }
                 stopTrackingLocation();
-                erasePolylines();
+                play_button.setImageResource(id);
             }
         });
 
@@ -200,6 +205,13 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
                 } else {
                     Toast.makeText( getContext(), "Please stop tracking before attempting to save", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        reset_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                resetValues();
             }
         });
 
@@ -439,6 +451,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
         chrono.stop();
         chrono.setBase(SystemClock.elapsedRealtime());
         pauseOffset= 0;
+        erasePolylines();
     }
 
     @Override
@@ -462,8 +475,6 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback, Routin
         if(polylines.size()>0) {
             erasePolylines();
         }
-
-        polylines = new ArrayList<>();
         //add route(s) to the map.
         for (int i = 0; i <route.size(); i++) {
 

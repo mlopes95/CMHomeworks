@@ -64,7 +64,7 @@ public class ProfileFragment extends Fragment {
                         .replace(R.id.nav_host_fragment,fragment)
                         .commit();*/
                 Navigation.findNavController(v).navigate(R.id.navigation_login);
-                Navigation.findNavController(v).popBackStack();
+                //Navigation.findNavController(v).popBackStack();
             }
         });
 
