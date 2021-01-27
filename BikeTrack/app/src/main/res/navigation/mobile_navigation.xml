@@ -37,7 +37,7 @@
     <fragment
         android:id="@+id/navigation_camera"
         android:name="pt.ua.cm.biketrack.ui.camera.CameraFragment"
-        android:label="@string/title_camera"
+        android:label="@string/title_gallery"
         tools:layout="@layout/fragment_camera" />
 
     <fragment

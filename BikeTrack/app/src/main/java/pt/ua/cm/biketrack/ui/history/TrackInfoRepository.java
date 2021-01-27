@@ -33,4 +33,10 @@ class TrackInfoRepository {
         mTrackInfoID = mTrackInfoDao.queryByID(id);
         return mTrackInfoID;
     }
+
+    void deleteTrack(TrackInfo trackInfo){
+        TrackInfoDatabase.databaseWriteExecutor.execute(()->{
+            mTrackInfoDao.deleteTrack(trackInfo);
+        });
+    }
 }

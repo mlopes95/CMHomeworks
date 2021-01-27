@@ -6,10 +6,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import pt.ua.cm.biketrack.R;
 import pt.ua.cm.biketrack.models.TrackInfo;
 
 public class TrackInfoAdapter extends ListAdapter<TrackInfo, TrackInfoViewHolder> {
@@ -20,6 +22,7 @@ public class TrackInfoAdapter extends ListAdapter<TrackInfo, TrackInfoViewHolder
         super(diffCallback);
         this.context = context;
     }
+
 
     @NonNull
     @Override

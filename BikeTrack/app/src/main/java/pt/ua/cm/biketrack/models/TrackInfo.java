@@ -108,4 +108,18 @@ public class TrackInfo {
     public void setTime(String time) {
         this.time = time;
     }
+
+    @Override
+    public String toString() {
+        return "TrackInfo{" +
+                "id=" + id +
+                ", mAvgSpeed=" + mAvgSpeed +
+                ", mDistance=" + mDistance +
+                ", mInitialLatitude=" + mInitialLatitude +
+                ", mInitialLongitude=" + mInitialLongitude +
+                ", mFinalLatitude=" + mFinalLatitude +
+                ", mFinalLongitude=" + mFinalLongitude +
+                ", time='" + time + '\'' +
+                '}';
+    }
 }
